@@ -1,0 +1,85 @@
+// body {
+//   background-color: $cream;
+//   font-family: $base;
+//   font-color: $gray;
+//   font-size: 16px;
+// }
+
+.body-content {
+  @extend .row;
+  margin-bottom: 12.5%;
+
+  .my-face {
+    margin-top: 25%;
+  }
+
+  .word-box {
+    margin-top: 25%;
+    .title {
+      color: $red;
+      font-size: 5em;
+      font-weight: 700;
+    }
+    .subtitle {
+      font-family: $mp;
+      color: $blue;
+      font-size: 3em;
+    }
+    .cta-intro {
+      color: $gray;
+      margin-top: 12.5%;
+    }
+    .cta-link {
+      color: $red;
+      &:active, &:focus, &:hover, &:visited {
+         color: $red;
+         text-decoration: none;
+      }
+
+    }
+
+  }
+
+
+}
+
+.roles-content {
+  @extend .row;
+    .my-hat{
+      @extend .row;
+    }
+
+    .cta{
+      @extend .row;
+    }
+}
+
+.case-studies {
+  @extend .row;
+  .projects {
+
+    .avd{
+
+    }
+
+    .cinnalott {
+
+    }
+
+    .old-fashioned {
+
+    }
+
+    .techway {
+      // http://techway-ny.herokuapp.com/
+
+    }
+
+  }
+
+  .professional-background {
+    @extend .row;
+  }
+
+
+}

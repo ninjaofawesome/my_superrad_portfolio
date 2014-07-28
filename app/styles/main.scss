@@ -1,0 +1,28 @@
+$icon-font-path: "../fonts/bootstrap/";
+// bower:scss
+// endbower
+
+@import 'variables';
+@import 'mixins';
+@import 'fonts';
+@import 'buttons';
+@import "bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
+@import 'indexpage';
+
+body {
+  background-color: $cream;
+  font-family: $base;
+  font-color: $gray;
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $pistil;
+}
+
+

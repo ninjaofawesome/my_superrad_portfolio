@@ -1,0 +1,29 @@
+
+//FONTS
+
+@font-face {
+    font-family: 'pistilliregular';
+    src: font-url('pistilli/pistilli-roman-webfont.eot');
+    src: font-url('pistilli/pistilli-roman-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('pistilli/pistilli-roman-webfont.woff') format('woff'),
+         font-url('pistilli/pistilli-roman-webfont.ttf') format('truetype'),
+         font-url('pistilli/pistilli-roman-webfont.svg#pistilliregular') format('svg');
+
+
+}
+
+@font-face {
+    font-family: 'mp';
+    src: font-url('motionpicture/motionpicture_personaluseonly-webfont.eot');
+    src: font-url('motionpicture/motionpicture_personaluseonly-webfont.eot?#iefix') format('embedded-opentype'),
+         font-url('motionpicture/motionpicture_personaluseonly-webfont.woff') format('woff'),
+         font-url('motionpicture/motionpicture_personaluseonly-webfont.ttf') format('truetype'),
+         font-url('motionpicture/motionpicture_personaluseonly-webfont.svg#mp') format('svg');
+
+
+}
+
+$base: Georgia, Times, "Times New Roman", serif;
+$pistil: 'pistilliregular', Georgia, Times, "Times New Roman", serif;
+$mp: 'mp', Georgia, Times, "Times New Roman", serif;
+
