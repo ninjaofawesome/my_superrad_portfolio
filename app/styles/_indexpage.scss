@@ -1,0 +1,143 @@
+body {
+  background-color: $cream;
+  font-family: $base;
+  font-color: $gray;
+  font-size: 21px;
+  text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $pistil;
+}
+
+
+.cta {
+  .cta-link {
+    color: $red;
+    &:active, &:focus, &:hover, &:visited {
+       color: $red;
+       text-decoration: none;
+    }
+  }
+  .text-cta {
+    text-align: center;
+  }
+}
+
+.body-content {
+  @extend .row;
+  height: 100vh;
+
+  .my-face {
+    margin-top: 25%;
+  }
+
+  .word-box {
+    margin-top: 25%;
+    .title {
+      color: $red;
+      font-size: 5em;
+      font-weight: 700;
+    }
+    .subtitle {
+      font-family: $mp;
+      color: $blue;
+      font-size: 3em;
+    }
+    .cta-intro {
+      color: $gray;
+      margin-top: 12.5%;
+    }
+  }
+}
+
+.roles-content {
+  @extend .row;
+   height: 100vh;
+
+    .my-hat{
+      @extend .row;
+      background-color: blue;
+      padding: 0;
+      .top-hat {
+        margin-top: 10%;
+      }
+    }
+
+    .cta{
+      @extend .row;
+    }
+
+    .thumbnail-img{
+      width: 200px;
+    }
+
+    .thumbnail-img-beerhat{
+      width: 225px;
+      // margin-left: 5%;
+      display: inline;
+    }
+    .role-title {
+      margin-top: 5%;
+    }
+
+}
+
+.case-studies {
+  @extend .row;
+  height: 100%;
+
+  .case-study-title {
+    text-align: center;
+  }
+
+  .case-study-subtitle {
+    text-align: center;
+    margin-bottom: 2%;
+  }
+  .projects {
+
+    .avd{
+
+    }
+
+    .cinnalott {
+
+    }
+
+    .old-fashioned {
+
+    }
+
+    .techway {
+      // http://techway-ny.herokuapp.com/
+
+    }
+
+  }
+
+  .professional-background {
+    @extend .row;
+    .pro-back {
+      text-align: center;
+    }
+    .whisper {
+      text-align: center;
+    }
+
+    .life-experience {
+      text-align: center;
+    }
+
+    .education {
+      list-style-type: none;
+    }
+  }
+
+
+}
