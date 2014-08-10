@@ -19,24 +19,14 @@
 <div class="roles-content" id="roles-content">
 
   <div class="my-hat top-hat">
-    <div class="col-md-3" style="background-color:red;">
-      <img class="thumbnail-img-beerhat" src="images/learnedhannah.png" alt="Hannah Nordgren Never Stops Learning">
-    </div>
-    <div class="col-md-9" style="background-color: green;">
-      <h1 class="role-title">I'm a Constant Learner</h1>
-      <p>I knew that being a developer was my dream job when I would come home from a full day of work to try out new frameworks and libraries on my own personal projects.  I enjoy strengthening my skills by trying new things, blogging about what I'm working on and tutoring others.</p>
-    </div>
-  </div>
-
-  <!-- <div class="my-hat">
-    <div class="col-md-2">
-      <img class="thumbnail-img" src="images/helmethead.png" alt="Hannah Nordgren Developer"/>
+    <div class="col-md-3">
+      <img class="thumbnail-img-beerhat" src="images/helmethead.png" alt="Hannah Nordgren Developer">
     </div>
     <div class="col-md-9">
       <h1 class="role-title">I'm a Developer.</h1>
-      <p>I am a front end developer.  I've worked with JavaScript, Angular, Ember, Object Oriented CSS (and Sass!), Compass, Bourbon, Neat and Bitters to make applications sparkle. I particularly enjoy working with Client Side Frameworks and Responsive Design. </p>
+      <p>I am a front end developer.  I've worked with JavaScript, Angular, Ember, Object Oriented CSS (and Sass!), Compass, Bourbon, Neat and Bitters to make applications sparkle. I particularly enjoy working with Client Side Frameworks and Responsive Design,  coded so that other developers can dissect it easily in the future.</p>
     </div>
-  </div> -->
+  </div>
 
   <div class="my-hat">
     <div class="col-md-9">
@@ -59,49 +49,48 @@
   </div>
 
   <div class="cta">
-    <h1 class="text-cta">That's pretty cool.  <a class="cta-link" href="#">Lets take a look.</a></h1>
+    <h1 class="text-cta">That's pretty cool.  <a class="cta-link" href="#">Let's check out the goods.</a></h1>
   </div>
-
-
 </div>
-<div class="case-studies">
-  <h1 class="case-study-title">Sure.</h1>
-  <h2 class="case-study-subtitle">Here's a few examples of work I've done..</h2>
+
+<div class="examples-content" id="examples-content">
+  <h1 class="examples-title">Sure Thing.</h1>
+  <h2 class="examples-subtitle">Here's a few examples of work I've done.</h2>
 
   <div class="projects">
     <div class="col-md-3">
       <div class="avd">
       </div>
-      <img class="project-thumb" src="images/cat.jpg" />
+      <img class="project-thumb" src="images/avd.png" alt="Amy Van Doran, Matchmaker" />
     </div>
 
     <div class="col-md-3">
       <div class="cinnalott">
       </div>
-       <img class="project-thumb" src="images/cat.jpg" />
+       <img class="project-thumb" src="images/swedeheart.png" alt="Cinna Liselott, puppeteer" />
     </div>
 
     <div class="col-md-3">
       <div class="old-fashioned">
       </div>
-      <img class="project-thumb" src="images/cat.jpg" />
+      <img class="project-thumb" src="images/oldfashioned.png" alt="old fashioned" />
     </div>
 
     <div class="col-md-3">
       <div class="techway">
       </div>
-       <img class="project-thumb" src="images/cat.jpg" />
+       <img class="project-thumb" src="images/techway.png" alt="techway pc repair NYC" />
     </div>
   </div>
 
   <div class="professional-background" id="professional-content">
-    <h2 class="pro-back">...and more.</h2>
-    <h3 class="whisper">(Get the fine print <a href ="#">here.</a>)</h3>
+    <h2 class="pro-back">...and my background.</h2>
+    <h3 class="whisper">(<a href ="#", target="_blank">Get the fine print here.</a>)</h3>
     <div class="col-md-6">
       <h1 class="life-experience">Education</h1>
         <ul class="education">
-          <li>Flatiron School: Full Stack Web Development Fellowship, 2013</li>
-          <li>Pratt Institute: BFA(Fashion Design), 2000</li>
+          <li ng-repeat="school in schools">
+            <span>{{school.name}}: {{school.program}}, {{school.graduation}}</span></li>
         </ul>
     </div>
 

@@ -1,9 +1,14 @@
+html {
+  height: 100%;
+}
+
 body {
   background-color: $cream;
   font-family: $base;
   font-color: $gray;
   font-size: 21px;
   text-align: justify;
+  height: 100%;
 }
 
 h1,
@@ -31,7 +36,7 @@ h6 {
 
 .body-content {
   @extend .row;
-  height: 100vh;
+  height: 100%;
 
   .my-face {
     margin-top: 25%;
@@ -58,11 +63,11 @@ h6 {
 
 .roles-content {
   @extend .row;
-   height: 100vh;
+  height: 100%;
+  margin: 10% auto;
 
     .my-hat{
       @extend .row;
-      background-color: blue;
       padding: 0;
       .top-hat {
         margin-top: 10%;
@@ -88,15 +93,22 @@ h6 {
 
 }
 
-.case-studies {
+.examples-content {
   @extend .row;
   height: 100%;
+  margin: 10% auto;
 
-  .case-study-title {
+  .examples-title {
+    color: $red;
     text-align: center;
+    font-family: $pistil;
+    font-size: 5em;
   }
 
-  .case-study-subtitle {
+  .examples-subtitle {
+    font-family: $mp;
+    font-size: 3em;
+    color: $blue;
     text-align: center;
     margin-bottom: 2%;
   }
@@ -125,6 +137,7 @@ h6 {
     @extend .row;
     .pro-back {
       text-align: center;
+      margin: 2% auto 0 auto;
     }
     .whisper {
       text-align: center;

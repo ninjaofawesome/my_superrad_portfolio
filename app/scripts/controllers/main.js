@@ -14,4 +14,20 @@ angular.module('mySuperradPortfolioApp')
       'AngularJS',
       'Karma'
     ];
+
+    $scope.schools = [
+      { name: 'Flatiron School',
+        program: 'Full Stack Web Development Fellowship',
+        graduation: 'March 2014'
+      }, { 
+        name: 'Fashion Institute of Technology',
+        program: 'Museum Studies, Costume & Textiles (Incomplete)',
+        graduation: 'September 2000-June 2001'
+      }, { 
+        name: 'Pratt Institute',
+        program: 'BFA(Fashion Design)',
+        graduation: 'May 2000'
+      }
+    ];
+
   });
