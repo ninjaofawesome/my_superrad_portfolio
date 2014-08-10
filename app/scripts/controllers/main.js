@@ -8,7 +8,8 @@
  * Controller of the mySuperradPortfolioApp
  */
 angular.module('mySuperradPortfolioApp')
-  .controller('MainCtrl', function ($scope) {
+  .controller('MainCtrl', function($scope) {
+
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -30,4 +31,19 @@ angular.module('mySuperradPortfolioApp')
       }
     ];
 
+    $scope.works = [  
+      { 'name': 'The Maki Fund', 
+        'href': 'http://www.makifund.com/',      
+      },{
+        'name': 'Wizard Development', 
+        'href': 'http://www.wizarddevelopment.com/',      
+      },{
+        'name': 'Nifty Thrifty', 
+        'href': 'http://niftythrifty.com/',      
+      }
+    ];
+
+    
+
   });
+

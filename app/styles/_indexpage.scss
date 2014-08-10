@@ -147,6 +147,23 @@ h6 {
       text-align: center;
     }
 
+    .bold-text {
+      font-weight: 700;
+    }
+
+    .scootch-over {
+      margin-left: 10%;
+    }
+
+    .work-link {
+        color: $black;
+        font-weight: 700;
+        text-decoration: none;
+        &:hover, &:active, &:visited, &:focus {
+          color: $black;
+        }
+      }
+
     .education {
       list-style-type: none;
     }

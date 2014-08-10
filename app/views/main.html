@@ -90,17 +90,15 @@
       <h1 class="life-experience">Education</h1>
         <ul class="education">
           <li ng-repeat="school in schools">
-            <span>{{school.name}}: {{school.program}}, {{school.graduation}}</span></li>
+            <span class="bold-text">{{school.name}}</span>: {{school.program}}, {{school.graduation}}</li>
         </ul>
     </div>
 
     <div class="col-md-6">
       <h1 class="life-experience">Work Experience(s)</h1>
         <ul class="education">
-          <li><a href="#">The Maki Fund</a></li>
-          <li><a href="#">Wizard Development</a></li>
-          <li><a href="#">Nifty Thrifty</a></li>
-          <li>...and others.</li>
+          <li class="scootch-over" ng-repeat="work in works" ><a class="work-link" ng-href="{{work.href}}"  target="_blank">{{work.name}}</a></li>
+          <li class="scootch-over">...and others.</li>
         </ul>
     </div>
 
