@@ -1,0 +1,150 @@
+.cta {
+  .cta-link {
+    color: $red;
+    &:active, &:focus, &:hover, &:visited {
+       color: $red;
+       text-decoration: none;
+    }
+  }
+  .text-cta {
+    text-align: center;
+  }
+}
+
+.body-content {
+  @extend .row;
+  height: 100%;
+
+  .my-face {
+    margin-top: 25%;
+  }
+
+  .word-box {
+    margin-top: 25%;
+    .title {
+      color: $red;
+      font-size: 5em;
+      font-weight: 700;
+    }
+    .subtitle {
+      font-family: $mp;
+      color: $blue;
+      font-size: 3em;
+    }
+    .cta-intro {
+      color: $gray;
+      margin-top: 12.5%;
+    }
+  }
+}
+
+.roles-content {
+  @extend .row;
+  height: 100%;
+  margin: 10% auto;
+
+    .my-hat{
+      @extend .row;
+      padding: 0;
+      .top-hat {
+        margin-top: 10%;
+      }
+    }
+
+    .cta{
+      @extend .row;
+    }
+
+    .thumbnail-img{
+      width: 200px;
+    }
+
+    .thumbnail-img-beerhat{
+      width: 225px;
+      // margin-left: 5%;
+      display: inline;
+    }
+    .role-title {
+      margin-top: 5%;
+    }
+
+}
+
+.examples-content {
+  @extend .row;
+  height: 100%;
+  margin: 10% auto;
+
+  .examples-title {
+    color: $red;
+    text-align: center;
+    font-family: $pistil;
+    font-size: 5em;
+  }
+
+  .examples-subtitle {
+    font-family: $mp;
+    font-size: 3em;
+    color: $blue;
+    text-align: center;
+    margin-bottom: 2%;
+  }
+  .projects {
+
+    .avd{
+
+    }
+
+    .cinnalott {
+
+    }
+
+    .old-fashioned {
+
+    }
+
+    .techway {
+      // http://techway-ny.herokuapp.com/
+
+    }
+
+  }
+
+  .professional-background {
+    @extend .row;
+    .pro-back {
+      text-align: center;
+      margin: 2% auto 0 auto;
+    }
+    .whisper {
+      text-align: center;
+    }
+
+    .life-experience {
+      text-align: center;
+    }
+
+    .bold-text {
+      font-weight: 700;
+    }
+
+    .scootch-over {
+      margin-left: 10%;
+    }
+
+    .work-link {
+        color: $black;
+        font-weight: 700;
+        text-decoration: none;
+        &:hover, &:active, &:visited, &:focus {
+          color: $black;
+        }
+      }
+
+    .education {
+      list-style-type: none;
+    }
+  }
+
+
+}

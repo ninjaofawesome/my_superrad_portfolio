@@ -1,0 +1,40 @@
+.techway-description{
+  position: relative;
+
+  .casestudy-header{
+    @extend .row;
+    margin-top: 5%;
+    .casestudy-title{
+      color: $red;
+      font-size: 5em;
+      text-align: center;
+
+    }
+    .casestudy-subtitle{
+      color: $blue;
+      font-family: $mp;
+      font-size: 3em;
+      text-align: center;
+    }
+  }
+
+  .casestudy-shot {
+    @extend .row;
+    position: absolute;
+    margin: 0 auto;
+  }
+
+  .project-highlights {
+    @extend .row;
+    .case-study-title{
+      color: $red;
+      font-family: $mp;
+
+    }
+    .case-study-paragraph{
+      text-align: justify;
+
+    }
+  }
+
+}
