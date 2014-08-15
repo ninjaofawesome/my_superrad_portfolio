@@ -1,5 +1,5 @@
-.amy-description{
-  position: relative;
+.amy-splash {
+  margin: 10% auto;
 
   .casestudy-header{
     @extend .row;
@@ -18,22 +18,28 @@
     }
   }
 
-  .casestudy-shot {
+  .casestudy {
     @extend .row;
-    position: absolute;
     margin: 0 auto;
+    .site-img {
+      width: 80%;
+      margin: 2% 10%;
+    }
   }
+
+}
+
+.amy-description {
+  margin-top: 10%;
 
   .project-highlights {
     @extend .row;
     .case-study-title{
       color: $red;
       font-family: $mp;
-
     }
     .case-study-paragraph{
       text-align: justify;
-
     }
   }
 
