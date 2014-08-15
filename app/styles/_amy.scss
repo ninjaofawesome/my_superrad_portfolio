@@ -25,6 +25,14 @@
       width: 80%;
       margin: 2% 10%;
     }
+    .casestudy-more-button {
+      @extend .row;
+      margin: 5% 12.5%;
+      color: $blue;
+      .casestudy-col {
+        padding: 0;
+      }
+    }
   }
 
 }
