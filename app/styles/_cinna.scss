@@ -1,5 +1,21 @@
 .cinna-splash {
   margin: 10% auto;
+  min-height: 400px;
+  @include breakpoint(iphone){
+    height: 420px;
+  }
+  @include breakpoint(mobile){
+    height: 550px;
+  }
+  @include breakpoint(tablet){
+    height: 700px;
+  }
+  @include breakpoint(desktop){
+    height: 1000px;
+  }
+  @include breakpoint(large){
+    height: 1200px;
+  }
 
   .casestudy-header{
     @extend .row;
@@ -25,12 +41,36 @@
       width: 80%;
       margin: 2% 10%;
     }
+    .casestudy-more-button {
+      @extend .row;
+      margin: 5% 12.5%;
+      color: $blue;
+      .casestudy-col {
+        padding: 0;
+      }
+    }
   }
 
 }
 
 .cinna-description {
-  margin-top: 10%;
+  margin: 10% 0;
+  min-height: 400px;
+  @include breakpoint(iphone){
+    height: 420px;
+  }
+  @include breakpoint(mobile){
+    height: 550px;
+  }
+  @include breakpoint(tablet){
+    height: 700px;
+  }
+  @include breakpoint(desktop){
+    height: 1000px;
+  }
+  @include breakpoint(large){
+    height: 1200px;
+  }
 
   .project-highlights {
     @extend .row;

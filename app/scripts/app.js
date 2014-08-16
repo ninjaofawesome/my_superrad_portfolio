@@ -20,21 +20,21 @@ mySuperradPortfolioApp.config(['$routeProvider', function($routeProvider) {
       })
       .when('/cinna', {
         templateUrl: 'views/cinna.html',
-        controller: 'cinnaCtrl'
+        controller: 'MainCtrl'
       })
       .when('/amy', {
         templateUrl: 'views/amy.html',
-        controller: 'AmyCtrl'
+        controller: 'MainCtrl'
       })
       .when('/oldfashioned', {
         templateUrl: 'views/oldfashioned.html',
-        controller: 'OldfashionedCtrl'
+        controller: 'MainCtrl'
       })
       .when('/techway', {
         templateUrl: 'views/techway.html',
-        controller: 'TechwayCtrl'
+        controller: 'MainCtrl'
       })
       .otherwise({
-        redirectTo: '/hi'
+        redirectTo: '/'
       });
     }]);
